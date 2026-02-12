@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎲 Random Number Generator</h1>
+    <p>Generate a random number using JavaScript</p>
+
+    <div class="box">
+        <label>Minimum Value</label>
+        <input type="number" id="min" placeholder="Enter min value">
+
+        <label>Maximum Value</label>
+        <input type="number" id="max" placeholder="Enter max value">
+
+        <button onclick="generateRandom()">Generate Number</button>
+
+        <div class="result">
+            <span>Random Number:</span>
+            <h2 id="output">--</h2>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
